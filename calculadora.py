@@ -6,5 +6,9 @@ def sumar(a, b):
 def restar(a, b):
     return a - b
 
-print(sumar(10, 5))
-print(restar(10, 5))
+def multiplicar(a, b):
+    return a * b    
+
+print("La suma es: " , sumar(10, 5))
+print("La resta es: " , restar(10, 5))
+print("La multiplicacion es: " , multiplicar(10, 5))
